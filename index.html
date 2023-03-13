@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark px-md-5 darker-background">
+      <div class="container-fluid px-lg-5 mx-lg-5">
+        <a class="navbar-brand text-uppercase fw-bold font-size-smaller my-2 my-md-1" href="#">Start
+        Bootstrap</a>
+        <button id="custom-navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-uppercase font-size-12 fw-bold">
+            <a class="nav-link active" aria-current="page" href="#second-section">Portfolio</a>
+            <a class="nav-link" href="#third-section">About</a>
+            <a class="nav-link" href="#fourth-section">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- first section -->
+    <section id="first-section" class="green-background">
+      <div class="container py-3 py-md-4">
+        <div class="row text-center white-text my-md-2">
+          <div class="col-12 pb-2">
+            <img class="mb-2" src="img/avatar.svg" alt="start">
+            <h1 class="my-1 fw-bold font-size-big text-uppercase">
+              Start Bootstrap
+            </h1>
+            <div class="star white my-2">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="text-uppercase font-size-smaller">
+              Graphic Artist - Web Designer - Illustrator
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- second section -->
+    <section id="second-section">
+      <div class="container py-4 py-md-5 px-md-4 px-lg-5">
+        <div class="row py-1">
+          <div class="col-10 mx-auto">
+            <h2 class="fw-bold font-size-medium text-center text-uppercase">
+              Portfolio
+            </h2>
+            <div class="star dark">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Img -->
+        <div class="row g-4 g-md-3 py-2 px-md-2 px-lg-3 mx-lg-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <img class="rounded-3" src="img/cabin.png" alt="cabin">
+            </div>
+            <div class="col">
+              <img class="rounded-3" src="img/cake.png" alt="cake">
+            </div>
+            <div class="col">
+              <img class="rounded-3" src="img/circus.png" alt="circus">
+            </div>
+            <div class="col">
+              <img class="rounded-3" src="img/game.png" alt="game">
+            </div>
+            <div class="col">
+              <img class="rounded-3" src="img/safe.png" alt="safe">
+            </div>
+            <div class="col">
+              <img class="rounded-3" src="img/submarine.png" alt="submarine">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- third section -->
+      <section id="third-section" class="green-background">
+        <div class="container white-text py-4">
+          <div class="row py-2 mt-md-3">
+            <div class="col-7 col-md-5 mx-auto">
+              <h2 class="fw-bold font-size-medium text-center text-uppercase">
+                About
+              </h2>
+              <div class="star white">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row font-size-13 g-3 px-2 px-md-5 pb-4 mx-md-5">
+            <div class="col-8 col-md-6  mx-auto ps-md-5">
+              <div>
+                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                complete source files including HTML, CSS, and JavaScript as well as optional LESS
+                stylesheets for easy customization.
+              </div>
+            </div>
+            <div class="col-8 col-md-6 mx-auto pe-md-5">
+              <div>
+                Whether you're a student looking to showcase your work, a professional looking to attract
+                clients, or a graphic artist looking to share your projects, this template is the perfect
+                starting point!
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2 mb-md-3">
+            <div class="col-12 text-center">
+              <button type="button" class="btn btn-sm font-size-12"><i class="fas fa-download"></i> Download</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- fourth section -->
+      <section id="fourth-section">
+        <div class="container my-4">
+          <div class="row py-1 pt-md-4">
+            <div class="col-7 col-md-5 mx-auto">
+              <h2 class="fw-bold font-size-medium text-center text-uppercase">
+                Contact me
+              </h2>
+              <div class="star dark">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Form -->
+          <form class="row g-1 pb-md-3">
+            <div class="col-8 mx-auto">
+              <input type="text" class="form-control border-0 border-bottom font-size-13" placeholder="Name"
+              aria-label="name">
+            </div>
+            <div class="col-8 mx-auto">
+              <input type="email" class="form-control border-0 border-bottom font-size-13"
+              placeholder="Email Address" aria-label="email">
+            </div>
+            <div class="col-8 mx-auto">
+              <input type="text" class="form-control border-0 border-bottom font-size-13"
+              placeholder="Phone Number" aria-label="number">
+            </div>
+            <div class="col-8 mx-auto">
+              <textarea class="form-control border-0 border-bottom font-size-13" placeholder="Message"
+              aria-label="textarea"></textarea>
+            </div>
+            <div class="col-8 mx-auto mt-2">
+              <button type="submit" class="btn btn-sm font-size-13">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="text-center dark-background white-text">
+        <!-- Footer 1 -->
+        <section class="py-4 py-md-2">
+          <div class="container px-lg-5">
+            <div class="row g-4 pt-md-4">
+              <div class="col-12 col-md-4 mx-auto">
+              <div class="font-size-small text-uppercase">Location</div>
+              <div class="font-size-smaller">2215 John Daniel Drive Clark, MO 54243</div>
+            </div>
+            <div class="col-12 col-md-4 font-size-small mx-auto">
+              <div class="text-uppercase">Around the web</div>
+              <div class="mt-1">
+                <a href="#" class="footer-social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="footer-social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="footer-social"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer-social"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3 mx-auto">
+              <div class="text-uppercase font-size-small">About Freelancer</div>
+              <div class="font-size-smaller">Freelance is a free to use, open source Bootstrap theme
+              created by <a href="#" class="green-text text-decoration-none">Start Bootstrap</a></div>
+            </div>
+          </div>
+        </section>
+        <!-- Footer 2 -->
+        <section class="darker-background">
+          <div class="container font-size-9 py-4">
+            <div class="row pb-3">
+              <div class="col-12">
+                <div>Copyright &#169; Your Website 2019</div>
+              </div>
+            </div>
+          </div>
+        </section>
+     </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+</body>
+</html>
